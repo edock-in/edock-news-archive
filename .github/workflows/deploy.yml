@@ -1,0 +1,17 @@
+# Each change to the record rebuilds news.edock.io, with the site code's own
+# deploy workflow (edock-in/edock-news, main).
+name: Deploy news.edock.io
+
+on:
+  push:
+    branches: [main]
+    paths: ['chain/**', 'stories/**', 'media/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  deploy:
+    uses: edock-in/edock-news/.github/workflows/deploy.yml@main

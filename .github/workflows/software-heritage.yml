@@ -1,0 +1,20 @@
+# Once a week, ask Software Heritage to take a fresh copy of this record.
+# They keep public code permanently; this is a free public request.
+name: Copy to Software Heritage
+
+on:
+  schedule:
+    - cron: '23 4 * * 1'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ask for a copy
+        run: |
+          curl -sS -X POST "https://archive.softwareheritage.org/api/1/origin/save/git/url/https://github.com/edock-in/edock-news-archive/" \
+            -H 'Accept: application/json' | head -c 600 || true
