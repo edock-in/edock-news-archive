@@ -1,0 +1,4 @@
+Edock News public record, 2026-10-23
+chain lines: 157
+newest line sha256: d88902ce619c640cb10ed4f9eab32c587b53d080da839aa652d8663837ffda76
+commit: 4b3c1d5ab7e9ed9a2259330c880218772aba32a4
