@@ -1,8 +1,13 @@
 # Edock News: the public record
 
-Every story on [news.edock.io](https://news.edock.io), and every version of
-it, is written here the moment it is published. Nobody, not even Edock, can
-quietly change or remove what is here.
+**Edock News closed on 26 November 2026.** Its website is gone; each of its
+stories is still on [Edock Blogs](https://blogs.edock.io) at the same address
+(`blogs.edock.io/p/<slug>`). This record stays public as it was. Edock's server
+stops adding to it with its next update.
+
+Every story that was on Edock News, and every version of it, was written here
+the moment it was published. Nobody, not even Edock, can quietly change or
+remove what is here.
 
 ## Why you can trust it
 
@@ -50,22 +55,22 @@ It checks every line, file and picture, and prints the newest fingerprint.
 | `version` | A story was published as News, or its author pressed Update |
 | `withdrawn` | Its author took it off News (`note` says how: unmarked, unpublished, deleted) |
 | `returned` | It came back on News with nothing changed |
-| `hidden` | Edock took it off news.edock.io (`note` gives the reason) |
+| `hidden` | Edock took it off News (`note` gives the reason) |
 | `unhidden` | Edock put it back |
 
-A withdrawn or hidden story leaves news.edock.io, but everything it ever said
-stays here, with the note.
+A withdrawn or hidden story left News, but everything it ever said stays
+here, with the note.
 
 ## Who can write here
 
 Only Edock's server, through a key that can do nothing but add to this
 repository. Stories come from the Edock team and members with a blue tick on
-[Edock Blogs](https://blogs.edock.io). The code that turns this record into
-news.edock.io is in [edock-in/edock-news](https://github.com/edock-in/edock-news),
-and anyone can suggest changes to it.
+[Edock Blogs](https://blogs.edock.io). The code that turned this record into
+the Edock News website is in [edock-in/edock-news](https://github.com/edock-in/edock-news);
+it no longer runs.
 
 ## Licences
 
 - **Stories**: [CC BY 4.0](LICENSE). Republish them freely, crediting the author
-  and linking to the story on news.edock.io.
+  and linking to the story on Edock Blogs.
 - **Scripts and workflows**: MIT, see [LICENSE-CODE](LICENSE-CODE).
